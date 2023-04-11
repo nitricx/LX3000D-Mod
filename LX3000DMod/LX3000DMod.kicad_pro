@@ -332,6 +332,10 @@
     [
       "7d962e19-59f6-4f00-941d-ab0b69565e01",
       "OpAmp-CSUB"
+    ],
+    [
+      "be443e7e-8712-4e40-bb9a-431b47dec22f",
+      "AudioSignals"
     ]
   ],
   "text_variables": {}
