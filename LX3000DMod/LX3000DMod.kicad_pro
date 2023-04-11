@@ -316,6 +316,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e3647445-731c-4229-a89c-e7a4e88e663b",
+      ""
+    ],
+    [
+      "4cdaf9b5-2468-4ebb-9ff1-1b240af7fb42",
+      "OpAmp-DLDR"
+    ],
+    [
+      "35f59078-19ab-4f8b-82a7-44a44c839045",
+      "OpAmp-DSLDSR"
+    ],
+    [
+      "7d962e19-59f6-4f00-941d-ab0b69565e01",
+      "OpAmp-CSUB"
+    ]
+  ],
   "text_variables": {}
 }
