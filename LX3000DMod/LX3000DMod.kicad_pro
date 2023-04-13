@@ -340,6 +340,10 @@
     [
       "6aa4d0bd-fafd-4a9b-8e28-1312ce4d5d3f",
       "Demux"
+    ],
+    [
+      "f018376b-b104-4681-9391-063571d597e9",
+      "OpAmpPSU"
     ]
   ],
   "text_variables": {}
