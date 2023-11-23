@@ -551,7 +551,7 @@
   (symbol (lib_id "Device:C") (at 109.22 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00be6b85-eb2e-4822-a5bb-159841fdfbb2)
-    (property "Reference" "C?" (at 113.03 74.9299 0)
+    (property "Reference" "C11" (at 113.03 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 77.4699 0)
@@ -575,6 +575,11 @@
     (pin "1" (uuid 6fbdf966-8c28-45cd-b0da-e416a9671c93))
     (pin "2" (uuid a641a6f8-9bfa-4b46-8bd4-85affaf77fe6))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C11") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C11") (unit 1)
@@ -586,7 +591,7 @@
   (symbol (lib_id "Device:R") (at 129.54 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08d3fd23-e1a7-4cb6-b6fe-038aa870de88)
-    (property "Reference" "R?" (at 129.54 66.04 90)
+    (property "Reference" "R15" (at 129.54 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 68.58 90)
@@ -610,6 +615,11 @@
     (pin "1" (uuid 0a88b733-b1ce-49f2-8420-16bc6417018b))
     (pin "2" (uuid c3f2a542-6276-43cd-8e96-ccb32f009a74))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R15") (unit 1)
@@ -621,7 +631,7 @@
   (symbol (lib_id "Device:R") (at 129.54 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1667e272-2332-4ed0-a365-c1d62f76062f)
-    (property "Reference" "R?" (at 129.54 30.48 90)
+    (property "Reference" "R13" (at 129.54 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 33.02 90)
@@ -645,6 +655,11 @@
     (pin "1" (uuid b35038bf-32a5-4f82-9a76-4ec9a4199cab))
     (pin "2" (uuid 05e9d32c-a95c-4af8-847e-10de8c920200))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R13") (unit 1)
@@ -656,7 +671,7 @@
   (symbol (lib_id "Device:R") (at 138.43 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 258f2ce8-8760-4633-ae73-be76d85b78da)
-    (property "Reference" "R?" (at 140.97 52.0699 0)
+    (property "Reference" "R24" (at 140.97 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 140.97 54.6099 0)
@@ -680,6 +695,11 @@
     (pin "1" (uuid e108cc09-a998-4dbd-9cf7-625016024ebc))
     (pin "2" (uuid f6c82d96-1211-4bb6-b7f0-2bc387706981))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R24") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R24") (unit 1)
@@ -691,7 +711,7 @@
   (symbol (lib_id "Device:R") (at 137.16 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 386d21ec-3a08-4cab-9c66-9e69250793fe)
-    (property "Reference" "R?" (at 139.7 87.6299 0)
+    (property "Reference" "R20" (at 139.7 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 139.7 90.1699 0)
@@ -715,6 +735,11 @@
     (pin "1" (uuid 3e313dae-f11e-4cb5-a24a-0bae6f798188))
     (pin "2" (uuid fc677541-1ba8-42c9-aaee-c2f90d563d2f))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R20") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R20") (unit 1)
@@ -726,7 +751,7 @@
   (symbol (lib_id "Device:R") (at 137.16 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 390167eb-8043-4072-97ee-0f5b07dc606e)
-    (property "Reference" "R?" (at 139.7 76.1999 0)
+    (property "Reference" "R19" (at 139.7 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 139.7 78.7399 0)
@@ -750,6 +775,11 @@
     (pin "1" (uuid 5281b0ff-73a9-4df3-a679-6a4d0708b7a0))
     (pin "2" (uuid e393adce-dd73-4a61-9ba3-06151373ce52))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R19") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R19") (unit 1)
@@ -761,7 +791,7 @@
   (symbol (lib_id "Device:R") (at 129.54 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 638f90cd-a757-4b45-b04e-26bed9d73d08)
-    (property "Reference" "R?" (at 129.54 102.87 90)
+    (property "Reference" "R17" (at 129.54 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 105.41 90)
@@ -785,6 +815,11 @@
     (pin "1" (uuid ba5420d0-c385-4bf0-90c8-955450db0205))
     (pin "2" (uuid 3102c861-050a-4474-a990-a29544fca669))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R17") (unit 1)
@@ -796,7 +831,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise") (at 71.12 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f786a57-0b88-447f-bc88-45efd76e776f)
-    (property "Reference" "J?" (at 78.74 83.8199 90)
+    (property "Reference" "J1" (at 78.74 83.8199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_02x05_Counter_Clockwise" (at 78.74 86.3599 90)
@@ -819,6 +854,11 @@
     (pin "8" (uuid 3d94360f-1c03-462e-a4f4-d8c0df6134f5))
     (pin "9" (uuid 89d3d2e2-8972-47fc-8b19-86b147638d95))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "J1") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "J1") (unit 1)
@@ -830,7 +870,7 @@
   (symbol (lib_id "Device:C") (at 109.22 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 714749ac-1f41-4af8-b2b4-7963c75a4609)
-    (property "Reference" "C?" (at 113.03 53.3399 0)
+    (property "Reference" "C10" (at 113.03 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 55.8799 0)
@@ -854,6 +894,11 @@
     (pin "1" (uuid 01aa1cdf-e7bf-4b96-94af-61a5bd46ab40))
     (pin "2" (uuid 3dd5053f-e8d9-463b-92dd-bad50fb5ea24))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C10") (unit 1)
@@ -865,7 +910,7 @@
   (symbol (lib_id "Device:C") (at 109.22 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85d16fb4-6e93-4338-9971-01d6177f9981)
-    (property "Reference" "C?" (at 113.03 111.7599 0)
+    (property "Reference" "C13" (at 113.03 111.7599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 114.2999 0)
@@ -889,6 +934,11 @@
     (pin "1" (uuid a7c0bbf7-2389-4510-870c-1bf8f3679907))
     (pin "2" (uuid 7162e564-3a67-41a3-876a-bbd53775b7f2))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C13") (unit 1)
@@ -900,7 +950,7 @@
   (symbol (lib_id "Device:R") (at 129.54 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93f53532-7ca2-4ed0-8b24-2010d2e3b69b)
-    (property "Reference" "R?" (at 129.54 124.46 90)
+    (property "Reference" "R18" (at 129.54 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 127 90)
@@ -924,6 +974,11 @@
     (pin "1" (uuid 62eae935-0105-47c5-b769-f6e0bdf71248))
     (pin "2" (uuid 73b59491-58fc-4945-acc1-27e6a1257c24))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R18") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R18") (unit 1)
@@ -935,7 +990,7 @@
   (symbol (lib_id "Device:C") (at 109.22 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad2fbf33-e24f-4536-a544-92c554861574)
-    (property "Reference" "C?" (at 113.03 125.7299 0)
+    (property "Reference" "C14" (at 113.03 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 128.2699 0)
@@ -959,6 +1014,11 @@
     (pin "1" (uuid 3daf9baf-b393-4915-8aa8-e202d1b7bdec))
     (pin "2" (uuid 669cd381-0004-4ccd-b344-41c67b99ee5f))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C14") (unit 1)
@@ -970,7 +1030,7 @@
   (symbol (lib_id "Device:R") (at 129.54 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4f61391-c63f-4d86-a1f2-79471c553043)
-    (property "Reference" "R?" (at 129.54 52.07 90)
+    (property "Reference" "R14" (at 129.54 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 54.61 90)
@@ -994,6 +1054,11 @@
     (pin "1" (uuid aec27a5d-70e4-4bfa-a564-2f1a15f3caf6))
     (pin "2" (uuid c9b1e0ce-07be-4536-bf0d-2b001d76c083))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R14") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R14") (unit 1)
@@ -1005,7 +1070,7 @@
   (symbol (lib_id "Device:R") (at 137.16 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b526089f-d42e-498c-a600-1f8abf082e59)
-    (property "Reference" "R?" (at 139.7 113.0299 0)
+    (property "Reference" "R21" (at 139.7 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 139.7 115.5699 0)
@@ -1029,6 +1094,11 @@
     (pin "1" (uuid 0eb9a1e6-cc3c-4584-8462-1dd49693a0f3))
     (pin "2" (uuid b9f69c3d-d30c-4783-a15d-ec33652fd18d))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R21") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R21") (unit 1)
@@ -1040,7 +1110,7 @@
   (symbol (lib_id "Device:R") (at 137.16 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b66c1c29-a022-4dac-9760-f0986d88422f)
-    (property "Reference" "R?" (at 139.7 124.4599 0)
+    (property "Reference" "R22" (at 139.7 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 139.7 126.9999 0)
@@ -1064,6 +1134,11 @@
     (pin "1" (uuid 8e22df52-d469-4b0b-80e6-56ad80406f4c))
     (pin "2" (uuid fe023831-7a46-4293-8852-3ed5e146d185))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R22") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R22") (unit 1)
@@ -1075,7 +1150,7 @@
   (symbol (lib_id "Device:C") (at 109.22 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcde8f19-89c7-488a-842e-f3d1eb9c9ec5)
-    (property "Reference" "C?" (at 113.03 39.3699 0)
+    (property "Reference" "C9" (at 113.03 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 41.9099 0)
@@ -1099,6 +1174,11 @@
     (pin "1" (uuid b0582b83-57d1-4d85-804c-4c73fb4d8609))
     (pin "2" (uuid 72686960-b83b-4a82-a2f3-1378bda50d62))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C9") (unit 1)
@@ -1110,7 +1190,7 @@
   (symbol (lib_id "Device:R") (at 138.43 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc5839ca-a18a-4f8b-8054-5453572de522)
-    (property "Reference" "R?" (at 140.97 40.6399 0)
+    (property "Reference" "R23" (at 140.97 40.6399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 140.97 43.1799 0)
@@ -1134,6 +1214,11 @@
     (pin "1" (uuid 518dde31-5978-41d2-b8b5-271120947dac))
     (pin "2" (uuid 1bdd06a0-d1be-416c-869a-cfd5b6c6d526))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R23") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R23") (unit 1)
@@ -1145,7 +1230,7 @@
   (symbol (lib_id "Device:C") (at 109.22 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9bceca8-d72b-48ec-9258-856a1459849a)
-    (property "Reference" "C?" (at 113.03 88.8999 0)
+    (property "Reference" "C12" (at 113.03 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 113.03 91.4399 0)
@@ -1169,6 +1254,11 @@
     (pin "1" (uuid 81aa57dd-2473-4d21-a4f4-721fcc64b21d))
     (pin "2" (uuid ffcf89c5-322c-439c-9c00-570169c8f959))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "C12") (unit 1)
@@ -1180,7 +1270,7 @@
   (symbol (lib_id "Device:R") (at 129.54 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc7d94dd-e175-4023-9771-9cfad53199c3)
-    (property "Reference" "R?" (at 129.54 87.63 90)
+    (property "Reference" "R16" (at 129.54 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 129.54 90.17 90)
@@ -1204,6 +1294,11 @@
     (pin "1" (uuid 8e4fc5cf-b55c-483b-bb5d-14e28384dba7))
     (pin "2" (uuid e579c5f5-cece-4f2c-9b8b-3b40f94ee9b0))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/22891c72-8758-489f-b07b-290960fc3620"
           (reference "R16") (unit 1)

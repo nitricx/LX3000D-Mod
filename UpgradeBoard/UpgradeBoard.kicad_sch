@@ -1,5 +1,82 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 32326095-4589-49eb-bfdc-5004b37213a0)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 203.2 46.99) (size 25.4 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3e08591f-9f75-4f14-b240-40be088c15b2)
+    (property "Sheetname" "OpAmpPsu" (at 203.2 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OpAmpPsu.kicad_sch" (at 203.2 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 121.92 43.18) (size 12.7 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 453b6ed3-4485-4dc4-9b98-bb9fdf8a0587)
+    (property "Sheetname" "Demux" (at 121.92 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Demux.kicad_sch" (at 121.92 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 165.1 45.72) (size 15.24 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 49a330ad-ff29-4315-a9a2-3a477af53ada)
+    (property "Sheetname" "OpAmp" (at 165.1 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OpAmp.kicad_sch" (at 165.1 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 45.72) (size 12.7 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7478923d-3961-4783-ac31-d5271535ecaf)
+    (property "Sheetname" "AudioSignals" (at 76.2 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AudioSignals.kicad_sch" (at 76.2 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

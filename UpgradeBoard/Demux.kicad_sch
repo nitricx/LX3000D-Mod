@@ -828,7 +828,7 @@
   (symbol (lib_id "Device:R") (at 204.47 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10e369c7-90d2-4904-bc89-aa57e99e7abc)
-    (property "Reference" "R?" (at 204.47 144.78 90)
+    (property "Reference" "R28" (at 204.47 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 204.47 147.32 90)
@@ -843,6 +843,11 @@
     (pin "1" (uuid 594756c2-e1f2-4fb0-8294-522680dd60b3))
     (pin "2" (uuid 61fc3952-97f5-4c34-bee6-b56167d393f5))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "R28") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "R28") (unit 1)
@@ -854,7 +859,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d6a5968-29a9-4505-97ca-e509744e8eca)
-    (property "Reference" "C?" (at 190.881 78.74 90)
+    (property "Reference" "C21" (at 190.881 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 81.28 90)
@@ -869,6 +874,11 @@
     (pin "1" (uuid 47c02689-7916-4b34-a67d-060c29002e55))
     (pin "2" (uuid ed87348a-8b29-489a-9bcb-2ce7453f0cdb))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C21") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C21") (unit 1)
@@ -880,7 +890,7 @@
   (symbol (lib_id "Device:C") (at 176.53 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2205ece0-ae1d-4bf1-8ab0-988a59a9b8d7)
-    (property "Reference" "C?" (at 180.34 153.6699 0)
+    (property "Reference" "C16" (at 180.34 153.6699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 180.34 156.2099 0)
@@ -904,6 +914,11 @@
     (pin "1" (uuid b62ac360-6463-45d4-bb84-db72b724a5fc))
     (pin "2" (uuid 10cd84b9-73d6-40b8-9353-1c5f95d3df28))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C16") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C16") (unit 1)
@@ -915,7 +930,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a9e5b7d-7971-41f3-8f50-c1baa633c4ee)
-    (property "Reference" "C?" (at 190.881 90.17 90)
+    (property "Reference" "C22" (at 190.881 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 92.71 90)
@@ -930,6 +945,11 @@
     (pin "1" (uuid d1696584-9abc-4112-b089-7bac30b1a806))
     (pin "2" (uuid c146b98c-4e8f-4cd6-bc05-592f1c17b237))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C22") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C22") (unit 1)
@@ -941,7 +961,7 @@
   (symbol (lib_id "Device:C") (at 176.53 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f069d4f-933a-4bf7-b413-f93bed57b23c)
-    (property "Reference" "C?" (at 180.34 138.4299 0)
+    (property "Reference" "C15" (at 180.34 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 180.34 140.9699 0)
@@ -965,6 +985,11 @@
     (pin "1" (uuid 07a4ea9a-f5e1-422a-b92c-6c47536f2257))
     (pin "2" (uuid 4b8309bc-56b3-478b-b235-c307a16489b9))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C15") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C15") (unit 1)
@@ -976,7 +1001,7 @@
   (symbol (lib_id "Device:D_Zener") (at 198.12 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34375baf-a52f-465e-9fbd-cd57b79240df)
-    (property "Reference" "D?" (at 200.66 138.4299 90)
+    (property "Reference" "D1" (at 200.66 138.4299 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 200.66 140.9699 90)
@@ -991,6 +1016,11 @@
     (pin "1" (uuid d29873e7-c680-472a-bccb-241919a2cbac))
     (pin "2" (uuid 08365fba-ad43-49e6-9b5b-e0ec52b69a3a))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "D1") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "D1") (unit 1)
@@ -1002,7 +1032,7 @@
   (symbol (lib_id "Device:R") (at 203.2 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41c0a497-2b45-41f0-9b25-23092aab4611)
-    (property "Reference" "R?" (at 203.2 68.58 90)
+    (property "Reference" "R26" (at 203.2 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 203.2 71.12 90)
@@ -1017,6 +1047,11 @@
     (pin "1" (uuid 19992153-cb93-48bd-b1ff-ca9eca3ee24a))
     (pin "2" (uuid a8061ec3-ec29-42fe-bad4-efbbce81b015))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "R26") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "R26") (unit 1)
@@ -1028,7 +1063,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 661da3d4-f9b1-4789-8947-3b620478734c)
-    (property "Reference" "C?" (at 190.881 55.88 90)
+    (property "Reference" "C19" (at 190.881 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 58.42 90)
@@ -1043,6 +1078,11 @@
     (pin "1" (uuid 123cbf5d-6e93-4a05-84a7-15e4ebd6c4f6))
     (pin "2" (uuid a3940ad3-cb37-48e6-ae31-47a6ec06b4f1))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C19") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C19") (unit 1)
@@ -1054,7 +1094,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 187.96 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ab5aae1-baf6-42d9-ae33-22ff2ad0ce08)
-    (property "Reference" "C?" (at 191.77 137.5409 0)
+    (property "Reference" "C17" (at 191.77 137.5409 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 191.77 140.0809 0)
@@ -1069,6 +1109,11 @@
     (pin "1" (uuid db2446ce-a509-4746-a611-420ef78e1b49))
     (pin "2" (uuid a112f75c-71e5-4e1d-b057-ee37a0e40424))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C17") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C17") (unit 1)
@@ -1080,7 +1125,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 187.96 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ad58518-9836-4824-bcef-775fb85c2061)
-    (property "Reference" "C?" (at 191.77 154.5589 0)
+    (property "Reference" "C18" (at 191.77 154.5589 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47u" (at 191.77 157.0989 0)
@@ -1095,6 +1140,11 @@
     (pin "1" (uuid 8a59d427-a974-4847-86a2-bbca8c672d54))
     (pin "2" (uuid c4849cf8-9a33-4b5e-a288-987648ed2e05))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C18") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C18") (unit 1)
@@ -1106,7 +1156,7 @@
   (symbol (lib_id "Device:R") (at 203.2 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8151b2e3-b480-478a-908f-16ee3e95ef77)
-    (property "Reference" "R?" (at 203.2 57.15 90)
+    (property "Reference" "R25" (at 203.2 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 203.2 59.69 90)
@@ -1121,6 +1171,11 @@
     (pin "1" (uuid a4bf63ac-ecf6-4af2-b0b7-be1b6613cfd8))
     (pin "2" (uuid cc0e6ec2-f853-4683-a2f5-0c88c8811bb7))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "R25") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "R25") (unit 1)
@@ -1132,7 +1187,7 @@
   (symbol (lib_id "4xxx:4053") (at 139.7 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b19b08-e88c-4f42-b6f4-d2da21c0fc38)
-    (property "Reference" "U?" (at 141.7194 105.41 0)
+    (property "Reference" "U3" (at 141.7194 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4053" (at 141.7194 107.95 0)
@@ -1161,6 +1216,11 @@
     (pin "8" (uuid 9a3b7beb-03c0-4b3e-abb9-fead4ce757de))
     (pin "9" (uuid 015ef4e0-d93d-4eff-8aa9-6be02a477efe))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "U3") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "U3") (unit 1)
@@ -1172,7 +1232,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e93a13-47e0-474d-8d65-f88ef9908cb2)
-    (property "Reference" "C?" (at 190.881 67.31 90)
+    (property "Reference" "C20" (at 190.881 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 69.85 90)
@@ -1187,6 +1247,11 @@
     (pin "1" (uuid fb546224-17b8-4dc3-bace-25c672d3155d))
     (pin "2" (uuid 97b7e255-4c97-4025-a187-2fabbb27aaa6))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C20") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C20") (unit 1)
@@ -1198,7 +1263,7 @@
   (symbol (lib_id "4xxx:4053") (at 139.7 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bc5992e-f568-4c05-8157-31bd9212e8ff)
-    (property "Reference" "U?" (at 141.7194 41.91 0)
+    (property "Reference" "U2" (at 141.7194 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4053" (at 141.7194 44.45 0)
@@ -1227,6 +1292,11 @@
     (pin "8" (uuid cdf2855d-2871-424f-a60c-73f32b474cfa))
     (pin "9" (uuid 939329e9-1bf8-44ee-9f2a-fec117dc601d))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "U2") (unit 1)
@@ -1238,7 +1308,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4bebacc-56cd-4e43-b2b9-9788ec1e6339)
-    (property "Reference" "C?" (at 190.881 113.03 90)
+    (property "Reference" "C24" (at 190.881 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 115.57 90)
@@ -1253,6 +1323,11 @@
     (pin "1" (uuid 59907b5b-003b-4889-b3fc-926ec9c94c59))
     (pin "2" (uuid 0d7b005f-354f-4979-b487-7c3fb9ba4ba9))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C24") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C24") (unit 1)
@@ -1264,7 +1339,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 191.77 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad7b1164-d633-499b-bc0a-e2b3a3767299)
-    (property "Reference" "C?" (at 190.881 101.6 90)
+    (property "Reference" "C23" (at 190.881 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 190.881 104.14 90)
@@ -1279,6 +1354,11 @@
     (pin "1" (uuid 335a4293-9e38-4c75-88a9-e395541b9ac8))
     (pin "2" (uuid 03eb5c7e-f6eb-4507-991f-4fc40fa7b9b0))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "C23") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "C23") (unit 1)
@@ -1290,7 +1370,7 @@
   (symbol (lib_id "Device:R") (at 204.47 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2b5af5d-9a4e-485f-afb2-fe462b081593)
-    (property "Reference" "R?" (at 204.47 129.54 90)
+    (property "Reference" "R27" (at 204.47 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 204.47 132.08 90)
@@ -1305,6 +1385,11 @@
     (pin "1" (uuid 4f1b62ed-8d09-47d9-a177-27a0cdad213a))
     (pin "2" (uuid 2f2d0076-f486-4d90-a594-9fbc14669cee))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "R27") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "R27") (unit 1)
@@ -1316,7 +1401,7 @@
   (symbol (lib_id "Device:D_Zener") (at 198.12 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f45177d9-aa18-4e8e-9c19-020d0ffdf232)
-    (property "Reference" "D?" (at 200.66 153.6699 90)
+    (property "Reference" "D2" (at 200.66 153.6699 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Zener" (at 200.66 156.2099 90)
@@ -1331,6 +1416,11 @@
     (pin "1" (uuid 340d2b3e-92d6-4848-ba7d-05ad67918ad3))
     (pin "2" (uuid 910eafcb-1841-4a46-80e8-a4ebeda1b45f))
     (instances
+      (project "UpgradeBoard"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/453b6ed3-4485-4dc4-9b98-bb9fdf8a0587"
+          (reference "D2") (unit 1)
+        )
+      )
       (project "LX3000DMod"
         (path "/4f5d37a7-29a4-4051-a4d9-17d7b14bc0cf/ff901509-841c-4538-ade2-174a1a088873"
           (reference "D2") (unit 1)
