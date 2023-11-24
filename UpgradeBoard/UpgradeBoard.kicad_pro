@@ -487,6 +487,18 @@
     [
       "3e08591f-9f75-4f14-b240-40be088c15b2",
       "OpAmpPsu"
+    ],
+    [
+      "c4a0d64c-2aa8-48e7-8dde-26248d1baa12",
+      "FrontAudioConnectors"
+    ],
+    [
+      "c8be79a5-a784-4112-8dfb-e119409565bf",
+      "SorroundAudioConnectors"
+    ],
+    [
+      "e668d640-94aa-4a89-ac9a-bdf26fc4ceb2",
+      "CenterSubAudioConnectors"
     ]
   ],
   "text_variables": {}

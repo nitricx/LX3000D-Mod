@@ -740,7 +740,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 02a60b94-2f66-4876-971c-1f11f90f449a)
   )
-  (hierarchical_label "A-MUTE" (shape input) (at 102.87 77.47 180) (fields_autoplaced)
+  (hierarchical_label "INPUTCTRL" (shape input) (at 102.87 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 064fb25d-3b69-47aa-9ac4-360cc88d730a)
   )
