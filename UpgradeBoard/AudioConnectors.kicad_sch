@@ -325,7 +325,7 @@
     (property "Value" "47k" (at 123.19 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 123.19 150.368 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 123.19 150.368 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 148.59 0)
@@ -340,6 +340,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "47K 1/10W 5%" (at 123.19 148.59 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C2759457" (at 123.19 148.59 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 689d548b-6f1e-49de-a171-3e6d826cff47))
     (pin "2" (uuid 28afd00e-da0e-4982-b071-6adb19bb87a4))
     (instances
@@ -348,13 +354,13 @@
           (reference "R?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "R23") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "R27") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "R31") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "LX3000DMod"
@@ -374,7 +380,7 @@
     (property "Value" "100p" (at 106.68 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.8352 148.59 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.8352 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 144.78 0)
@@ -389,6 +395,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "100PF 2% NP0 63V" (at 102.87 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C576781" (at 102.87 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9af0cdc4-a499-43b5-9a4c-56b7ff4d2c2b))
     (pin "2" (uuid 507267a0-96f0-4720-87da-f1bae422beb9))
     (instances
@@ -397,13 +409,13 @@
           (reference "C?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "C24") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "C26") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "C28") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "LX3000DMod"
@@ -439,13 +451,13 @@
           (reference "J?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "J3") (unit 1)
-        )
-        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
           (reference "J4") (unit 1)
         )
-        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
           (reference "J5") (unit 1)
+        )
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -460,7 +472,7 @@
     (property "Value" "4.7k" (at 133.35 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 132.588 143.51 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 132.588 143.51 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 143.51 0)
@@ -475,6 +487,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "4K7 1/10W 5%" (at 130.81 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C380775" (at 130.81 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f0c39677-18de-471a-97b0-6a3d5f90f78b))
     (pin "2" (uuid c7851b38-dc8d-4cea-bb5c-6ec5e398e6d9))
     (instances
@@ -483,13 +501,13 @@
           (reference "R?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "R25") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "R29") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "R33") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "LX3000DMod"
@@ -509,7 +527,7 @@
     (property "Value" "100p" (at 106.68 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.8352 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.8352 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 130.81 0)
@@ -524,6 +542,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "100PF 2% NP0 63V" (at 102.87 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C576781" (at 102.87 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9972013d-e771-4854-8716-741d62641d94))
     (pin "2" (uuid 2fe7b14b-a642-4c5d-a826-959eb3f1e6e4))
     (instances
@@ -532,13 +556,13 @@
           (reference "C?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "C23") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "C25") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "C27") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "LX3000DMod"
@@ -558,7 +582,7 @@
     (property "Value" "4.7k" (at 133.35 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 132.588 132.08 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 132.588 132.08 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 132.08 0)
@@ -573,6 +597,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "4K7 1/10W 5%" (at 130.81 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C380775" (at 130.81 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 66aec8a8-5eff-41f9-8c60-8fad60bd3d55))
     (pin "2" (uuid f6087a40-f61d-4b70-be16-90eae2ac1d4c))
     (instances
@@ -581,13 +611,13 @@
           (reference "R?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "R24") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "R28") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "R32") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "LX3000DMod"
@@ -607,7 +637,7 @@
     (property "Value" "47k" (at 123.19 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 123.19 128.778 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 123.19 128.778 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 127 0)
@@ -622,6 +652,12 @@
     (property "Sim.Pins" "1=1 2=2" (at -6.35 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "47K 1/10W 5%" (at 123.19 127 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "C2759457" (at 123.19 127 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0f6b23b3-5652-4adf-a982-a0602a4f7bf5))
     (pin "2" (uuid 04127590-61b7-4155-99a3-94ae50aa4afb))
     (instances
@@ -630,13 +666,13 @@
           (reference "R?") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c4a0d64c-2aa8-48e7-8dde-26248d1baa12"
-          (reference "R22") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/c8be79a5-a784-4112-8dfb-e119409565bf"
-          (reference "R26") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/32326095-4589-49eb-bfdc-5004b37213a0/7478923d-3961-4783-ac31-d5271535ecaf/e668d640-94aa-4a89-ac9a-bdf26fc4ceb2"
-          (reference "R30") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "LX3000DMod"

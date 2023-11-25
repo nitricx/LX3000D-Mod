@@ -485,16 +485,8 @@
       "AudioSignals"
     ],
     [
-      "453b6ed3-4485-4dc4-9b98-bb9fdf8a0587",
-      "Demux"
-    ],
-    [
-      "8d105945-7898-4d5a-a568-26990c12762d",
-      "FrontOpAmp"
-    ],
-    [
-      "3e08591f-9f75-4f14-b240-40be088c15b2",
-      "OpAmpPsu"
+      "e668d640-94aa-4a89-ac9a-bdf26fc4ceb2",
+      "CenterSubAudioConnectors"
     ],
     [
       "c4a0d64c-2aa8-48e7-8dde-26248d1baa12",
@@ -505,8 +497,8 @@
       "SorroundAudioConnectors"
     ],
     [
-      "e668d640-94aa-4a89-ac9a-bdf26fc4ceb2",
-      "CenterSubAudioConnectors"
+      "8d105945-7898-4d5a-a568-26990c12762d",
+      "FrontOpAmp"
     ],
     [
       "2451af12-c48c-47fc-9cf0-8be6a74112e1",
@@ -515,6 +507,14 @@
     [
       "35455cc9-acfa-4e62-97a4-f61312def3c3",
       "CenterSubOpAmp"
+    ],
+    [
+      "453b6ed3-4485-4dc4-9b98-bb9fdf8a0587",
+      "Demux"
+    ],
+    [
+      "3e08591f-9f75-4f14-b240-40be088c15b2",
+      "OpAmpPsu"
     ]
   ],
   "text_variables": {}

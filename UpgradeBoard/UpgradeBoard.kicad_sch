@@ -1112,6 +1112,9 @@
     (property "Datasheet" "~" (at 165.1 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "22k 5% 0,1W" (at 165.1 73.66 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5290335e-c15f-41a6-b60c-e414847c6751))
     (pin "2" (uuid ea7903fd-463e-476d-b50a-dd038d501946))
     (instances
@@ -1136,6 +1139,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Desc" "9K1 5% 0,1W" (at 173.99 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 337ef176-1cfb-4238-94a5-553b8f9cdf9d))
@@ -1504,6 +1510,9 @@
     (property "Datasheet" "~" (at 153.67 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Desc" "3k6 5% 0,1W" (at 153.67 62.23 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 368317eb-22ad-4bf6-9b26-c37c966cf3db))
     (pin "2" (uuid eb43c943-4be5-4904-8bc3-1babbb2a5ab2))
     (instances
@@ -1572,7 +1581,7 @@
     )
     (instances
       (project "UpgradeBoard"
-        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "5"))
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "10"))
       )
     )
   )
@@ -1677,7 +1686,7 @@
     )
     (instances
       (project "UpgradeBoard"
-        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "3"))
+        (path "/32326095-4589-49eb-bfdc-5004b37213a0" (page "9"))
       )
     )
   )
