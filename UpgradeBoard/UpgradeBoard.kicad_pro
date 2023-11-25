@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -481,8 +489,8 @@
       "Demux"
     ],
     [
-      "49a330ad-ff29-4315-a9a2-3a477af53ada",
-      "OpAmp"
+      "8d105945-7898-4d5a-a568-26990c12762d",
+      "FrontOpAmp"
     ],
     [
       "3e08591f-9f75-4f14-b240-40be088c15b2",
@@ -499,6 +507,14 @@
     [
       "e668d640-94aa-4a89-ac9a-bdf26fc4ceb2",
       "CenterSubAudioConnectors"
+    ],
+    [
+      "2451af12-c48c-47fc-9cf0-8be6a74112e1",
+      "SurroundOpAmp"
+    ],
+    [
+      "35455cc9-acfa-4e62-97a4-f61312def3c3",
+      "CenterSubOpAmp"
     ]
   ],
   "text_variables": {}
