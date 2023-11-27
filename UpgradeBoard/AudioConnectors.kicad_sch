@@ -435,7 +435,7 @@
     (property "Value" "AudioJack3_Ground" (at 75.565 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.47 137.16 0)
+    (property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal" (at 77.47 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 137.16 0)
